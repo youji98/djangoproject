@@ -9,7 +9,14 @@ h1 {
 <h1>안녕하세요!!</h1>
 
 <a href="{%url 'about'%}">뭐 하는 곳인가요?</a>
-
+<br>
+<style>
+p {
+    font-size:18px;
+    color:darkorchid;
+    font-weight:400;
+    </style>
+<p>텍스트를 입력해 보세요.</p>
 <form action="{%url 'result'%}">
     <textarea cols="40" rows="10" name="fulltext"></textarea>
     <br>
